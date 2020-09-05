@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+}
+nav{
+    top:0;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    background: rgb(45, 45, 131);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    flex: 1;
+    width: 40%;
+    font-family: cursive;
+}
+.logo span{
+    color: tomato;
+}
+.nav-links{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    padding-right: 20px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-link{
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background: blanchedalmond;
+    color: black;
+    transition: all 0.3s ease-in;
+}
+/* Nav End */
+section{
+    height: 90vh;
+    background: greenyellow;
+}
+.container{
+    position: relative;
+    height: 90vh;
+    background: hotpink;
+}
+.text-block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-block button{
+    border: 2px solid white;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: none;
+}
+.text-block button:hover{
+    border: 2px solid black;
+    transition: all 0.5s ease-in;
+    margin-left: 30px;
+}
+.content{
+    height: 90vh;
+    background: indigo;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    background: yellow;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.img{
+    height: 40%;
+    width: 100%;
+    background: violet;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.text{
+    height: 50%;
+    width: 100%;
+    background: turquoise;
+}
+.card button{
+    border: none;
+    width: 100%;
+    height: 10%;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+#view{
+    background: blueviolet;
+    color: burlywood;
+}
+#buy{
+    background: tomato;
+    color: burlywood;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#view:hover{
+    background: rgb(58, 46, 44);
+    color: burlywood;
+    transition: all 0.3s ease-in;
+}
+
+#buy:hover{
+    background: rgb(36, 34, 37);
+    color: burlywood;
+    transition: all 0.3s ease-in;
+}
+
+
+footer{
+    height: 10vh;
+    background: black;
+}
